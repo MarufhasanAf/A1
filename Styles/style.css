@@ -15,12 +15,26 @@ section {
   width: 1140px;
   margin: 0 auto;
 }
+.section-info-container {
+  width: 852px;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+.section-title {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 0;
+}
 .regular-description {
   font-size: 16px;
   font-weight: 400;
   opacity: 0.7;
   line-height: 26px;
-  letter-spacing: 0%;
+  text-align: center;
 }
 /* Banner Section styles */
 .header {
@@ -78,11 +92,6 @@ section {
   width: 946px;
   margin: 0 auto;
 }
-.development-section-title {
-  font-size: 32px;
-  font-weight: 800px;
-  margin: 0 0;
-}
 .development-description {
   margin: 24px 47px;
 }
@@ -90,7 +99,6 @@ section {
   display: flex;
   justify-content: space-between;
   padding: 48px;
-  margin-bottom: 32px;
   border-radius: 16px;
   background: linear-gradient(
     90deg,
@@ -128,10 +136,80 @@ section {
   border: 1px solid rgb(13, 19, 33);
   opacity: 0.7;
   color: rgb(13, 19, 33);
+  cursor: pointer;
 }
 .development-second {
   justify-content: flex-start;
+  margin: 32px 0;
 }
 .developer-img-second {
   padding-right: 32px;
+}
+
+/* Inspiration section style  */
+.inspiration-heading {
+  width: 852px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 90px;
+}
+.youtube-video-container {
+  width: 1140px;
+  height: 614px;
+  padding: 32px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+}
+#youtube-video {
+  border-radius: 16px;
+}
+
+/* Current target section style  */
+.current-target-cards {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 32px;
+  margin: 32px 0;
+}
+.card {
+  border-radius: 16px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.card img {
+  width: 56px;
+  height: 56px;
+}
+.card h5 {
+  font-size: 24px;
+  font-weight: 800;
+  color: rgb(13, 19, 33);
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+.card p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(13, 19, 33);
+  line-height: 26px;
+  opacity: 0.7;
+  text-align: left;
+}
+.card a {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+}
+#card1 {
+  background: rgba(255, 76, 30, 0.05);
+}
+#card2 {
+  background: rgba(0, 76, 232, 0.05);
+}
+#card3 {
+  background: rgba(255, 223, 0, 0.05);
 }
